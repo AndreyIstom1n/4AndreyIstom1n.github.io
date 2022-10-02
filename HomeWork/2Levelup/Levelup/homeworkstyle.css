@@ -1,0 +1,46 @@
+.logo{width: 90px;}
+h1{
+    font-size: 59px;
+    letter-spacing: 1px;
+    color: chocolate;
+    margin-left: 40%;
+    font-family:Broadway; 
+}
+
+.linkedlist{font-size: 20px;}
+
+.container-fluid{background-color:bisque;}
+
+body{background-color: darkkhaki;}
+
+.flex-order{
+    display: flex;
+    flex-direction: column;
+}
+ol{
+    background-color: bisque;
+}
+
+.text-danger{
+    text-align: center;
+    background-color: wheat;
+    font-size: x-larger;
+}
+form{
+    background-color: bisque;}
+
+table{background-color:bisque;}
+
+h2{
+    font-size: large;
+    text-align: center;
+    background-color: coral;
+}
+
+td {text-align: center;
+background-color: white;}
+
+
+@media(min-widht: 570px)
+{
+}
