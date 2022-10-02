@@ -24,7 +24,17 @@ ol{
 
 .text-danger{
     text-align: center;
-    background-color: wheat;
+    background-color:beige;
+    font-size: x-larger;
+}
+.text-danger2{
+    text-align: center;
+    background-color:rgb(157, 243, 161);
+    font-size: x-larger;
+}
+.text-danger3{
+    text-align: center;
+    background-color:rgb(217, 245, 151);
     font-size: x-larger;
 }
 form{
