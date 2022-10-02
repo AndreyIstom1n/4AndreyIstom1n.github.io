@@ -54,6 +54,6 @@ background-color: white;}
 img{max-width: 300px;}
 
 @media(min-widht: 700px)
-{
+{   .logo{width: 200px;}
     img {max-width: 500px;}
 }
