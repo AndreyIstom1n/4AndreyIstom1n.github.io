@@ -51,7 +51,9 @@ h2{
 td {text-align: center;
 background-color: white;}
 
+img{max-width: 300px;}
 
-@media(min-widht: 570px)
+@media(min-widht: 700px)
 {
+    img {max-width: 500px;}
 }
