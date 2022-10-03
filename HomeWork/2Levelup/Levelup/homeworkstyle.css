@@ -15,14 +15,17 @@ ol{
 .text-danger{
     background-color:beige;
     font-size: x-larger;
+    color:red;
 }
-.t2{
+.text-danger2{
+    color:red;
     background-color:rgb(157, 243, 161);
     font-size: x-larger;
 }
-.t3{
+.text-danger3{
     background-color:rgb(217, 245, 151);
     font-size: x-larger;
+    color:red;
 }
 form{
     background-color: bisque;}
