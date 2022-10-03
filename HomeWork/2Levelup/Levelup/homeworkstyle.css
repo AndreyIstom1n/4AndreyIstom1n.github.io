@@ -7,17 +7,12 @@ h1{
     margin-left: 40%;
     font-family:Broadway; 
 }
-
 .linkedlist{font-size: 20px;}
-
 .container-fluid{background-color:bisque;}
-
 body{background-color: darkkhaki;}
-
 ol{
     background-color: bisque;
 }
-
 .text-danger{
     text-align: center;
     background-color:beige;
@@ -37,7 +32,6 @@ form{
     background-color: bisque;}
 
 table{background-color:bisque;}
-
 h2{
     font-size: large;
     text-align: center;
@@ -46,9 +40,7 @@ h2{
 
 td {text-align: center;
 background-color: white;}
-
 img{max-width: 300px;}
-
 @media(min-widht: 700px)
 {   .logo{width: 200px;}
     img {max-width: 500px;}
