@@ -14,10 +14,6 @@ h1{
 
 body{background-color: darkkhaki;}
 
-.flex-order{
-    display: flex;
-    flex-direction: column;
-}
 ol{
     background-color: bisque;
 }
