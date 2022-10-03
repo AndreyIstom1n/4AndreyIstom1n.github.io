@@ -11,7 +11,7 @@
     <div class="container-fluid m-auto">
         <header class="p-md-5">
             <div class="logo"><a href=""><img src="logotype.png"class="logo float-left"alt="Логотип"></a></div>
-            <h1 class="text-left">home.ru</h1>
+            <h1 class="text-center m-8">home.ru</h1>
         </header>
     </div>
     <hr>
@@ -19,9 +19,9 @@
         <nav class="d-flex flex-flow">
             <div class ="col-md-12 px-md-5 bg-info">
                 <div class="d-flex flex-column flex-md-row p-2 row">
-                    <a class="text-danger col-sm" href="#linkedlist">Ссылки</a>
-                    <a class="text-danger2 col-sm" href="#table">Таблица</a>
-                    <a class="text-danger3 col-sm" href="#form">Форма</a>
+                    <a class="text-danger text-center col-sm" href="#linkedlist">Ссылки</a>
+                    <a class="text-danger2 text-center col-sm" href="#table">Таблица</a>
+                    <a class="text-danger3 text-center col-sm" href="#form">Форма</a>
                 </div>
             </div>
         </nav>
@@ -79,37 +79,37 @@
                 <th>Количество пользователей (млрд)</th>
             </tr>
             <tr>
-                <td>Facebook</td>
-                <td>1</td>
-                <td>6</td>
-                <td>Марк Цукерберг</td>
-                <td>2,74</td>
+                <td class="text-center">Facebook</td>
+                <td class="text-center">1</td>
+                <td class="text-center">6</td>
+                <td class="text-center">Марк Цукерберг</td>
+                <td class="text-center">2,74</td>
             </tr>
             <tr>
-                <td>Youtube</td>
-                <td colspan="2">2</td>
-                <td>Сюзан Воджицки</td>
-                <td>2,29</td>
+                <td class="text-center">Youtube</td>
+                <td class="text-center"colspan="2">2</td>
+                <td class="text-center">Сюзан Воджицки</td>
+                <td class="text-center">2,29</td>
             </tr>
             <tr>
-                <td>WhatsApp</td>
-                <td>3</td>
-                <td>4</td>
-                <td>Уилл Каткарт</td>
-                <td>2</td>
+                <td class="text-center">WhatsApp</td>
+                <td class="text-center">3</td>
+                <td class="text-center">4</td>
+                <td class="text-center">Уилл Каткарт</td>
+                <td class="text-center">2</td>
             </tr>
             <tr>
-                <td>Instagram</td>
-                <td>4</td>
-                <td>3</td>
-                <td>Кевин Систром</td>
-                <td>1,22</td>
+                <td class="text-center">Instagram</td>
+                <td class="text-center">4</td>
+                <td class="text-center">3</td>
+                <td class="text-center">Кевин Систром</td>
+                <td class="text-center">1,22</td>
             </tr>
             <tr>
-                <td>TikTok</td>
-                <td colspan="2">5</td>
-                <td>Шоу Зи Чу</td>
-                <td>0,681</td>
+                <td class="text-center">TikTok</td>
+                <td class="text-center" colspan="2">5</td>
+                <td class="text-center">Шоу Зи Чу</td>
+                <td class="text-center">0,681</td>
             </tr>
         </table>
         <a id="form"></a>
@@ -117,27 +117,27 @@
         <form class="text-center">
         <form action="/"
             method="POST">
-            <h2>Форма HTML</h2>
+            <h2 class="text-center">Форма HTML</h2>
             Ваше имя:<br/>
                 <label>
-                <input name="field-name">
-                </label><br/><br/>
+                <input name="field-name" required>
+                </label><br/>
             Ваша электронная почта:<br/>
                 <label>
                 <input name="field-email"
-                type="email"
+                type="email" required
                 placeholder="example@mail.ru"/>
-                </label><br/><br/>
+                </label><br/>
             Ваша дата рождения:<br/>
                 <label>
                 <input name="field-date"
                 value="1-01-01"
-                type="date">
-                </label></br><br/>
+                type="date" required>
+                </label></br>
             Ваш пол:<br/>
                 <label><input type="radio" value="m"name="radio-group-1"/>Мужской</label>
                 <label><input type="radio" value="w"name="radio-group-1"/>Женский</label>
-                <label><input type="radio" value="o"name="radio-group-1"/>Другой</label><br/><br/>
+                <label><input type="radio" value="o"name="radio-group-1"/>Другой</label><br/>
             Количество Ваших конечностей:<br/>
                 <label><input type="radio" value="0"name="radio-group-2"/>0</label>
                 <label><input type="radio" value="1"name="radio-group-2"/>1</label>
@@ -146,23 +146,23 @@
                 <label><input type="radio" value="4"name="radio-group-2"/>4</label>
                 <label><input type="radio" value="5"name="radio-group-2"/>5</label>
                 <label><input type="radio" value="6"name="radio-group-2"/>6</label>
-                <label><input type="radio" value="7+"name="radio-group-2"/>7+</label><br/><br/>
+                <label><input type="radio" value="7+"name="radio-group-2"/>7+</label><br/>
             Ваши сверхспособности:<br/>
                 <label><select name="field-skills"
                 multiple="multiple">
                     <option value="un">Бессмертие</option>
                     <option value="gh">Прохождение сквозь стены</option>
                     <option value="fl">Левитация</option>
-                </select></label><br/><br/>
+                </select></label><br/>
             Ваша биография:<br/>
                 <label>
-                <textarea name="field-bio"></textarea>
-                </label><br/><br/>
+                <textarea name="field-bio" required></textarea>
+                </label><br/>
             Чекбокс<br/>
                 <label>
-                    <input type="checkbox"
+                    <input type="checkbox" required
                     name="check-1"/>С контрактом ознакомлен(а)
-                </label><br/><br/>
+                </label><br/>
                 <div class="but"></div>
                 <input type="submit"value="Отправить"/></div>
             </form>

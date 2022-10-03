@@ -4,7 +4,6 @@ h1{
     font-size: 59px;
     letter-spacing: 1px;
     color: chocolate;
-    margin-left: 40%;
     font-family:Broadway; 
 }
 .linkedlist{font-size: 20px;}
@@ -14,17 +13,14 @@ ol{
     background-color: bisque;
 }
 .text-danger{
-    text-align: center;
     background-color:beige;
     font-size: x-larger;
 }
 .text-danger2{
-    text-align: center;
     background-color:rgb(157, 243, 161);
     font-size: x-larger;
 }
 .text-danger3{
-    text-align: center;
     background-color:rgb(217, 245, 151);
     font-size: x-larger;
 }
@@ -34,11 +30,11 @@ form{
 table{background-color:bisque;}
 h2{
     font-size: large;
-    text-align: center;
     background-color: coral;
 }
-td {text-align: center;
-background-color: white;}
+th{font-size: small;}
+td {font-size: small;
+    background-color: white;}
 img{max-width: 300px;}
 @media(min-widht: 700px)
 {   .logo{width: 200px;}
