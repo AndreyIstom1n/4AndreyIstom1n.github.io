@@ -13,11 +13,6 @@ h1{
 .container-fluid{background-color:bisque;}
 
 body{background-color: darkkhaki;}
-
-.flex-order{
-    display: flex;
-    flex-direction: column;
-}
 ol{
     background-color: bisque;
 }
